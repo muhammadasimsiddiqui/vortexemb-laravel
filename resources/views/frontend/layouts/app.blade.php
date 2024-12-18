@@ -5,7 +5,7 @@
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
     <meta charset="utf-8" />
     <meta name="vortexemb" content="vortexemb.com" />
-    <title>Home</title>
+    <title>@yield('title') - Vortexemb</title>
     <meta name="description" content="" />
     <meta name="keywords" content="" />
 
@@ -44,7 +44,8 @@
     <link rel="stylesheet" href="asset/vendor/tinny-slider/tiny-slider.css" />
   </head>
 
-<body>
+<body class="{{ Route::currentRouteName() == 'home' ? 'index-page' : 'other-page' }}">
+
     <!-- Header -->
     @include('frontend.partials.header')
 
@@ -55,7 +56,51 @@
 
     <!-- Footer -->
     @include('frontend.partials.footer')
+ <!-- Scroll Top -->
+ <a
+      href="#"
+      id="scroll-top"
+      class="scroll-top d-flex align-items-center justify-content-center"
+      ><i class="bi bi-arrow-up-short"></i
+    ></a>
 
+    <!-- Preloader -->
+    <div id="preloader"></div>
+
+    <!--Start of Tawk.to Script-->
+    <script type="text/javascript">
+      var Tawk_API = Tawk_API || {},
+        Tawk_LoadStart = new Date();
+      (function () {
+        var s1 = document.createElement("script"),
+          s0 = document.getElementsByTagName("script")[0];
+        s1.async = true;
+        s1.src = "https://embed.tawk.to/6739a5092480f5b4f59f3cc5/1icsipc4s";
+        s1.charset = "UTF-8";
+        s1.setAttribute("crossorigin", "*");
+        s0.parentNode.insertBefore(s1, s0);
+      })();
+    </script>
+    <!--End of Tawk.to Script-->
+
+    <!-- Vendor JS Files -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="asset/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="asset/vendor/aos/aos.js"></script>
+    <script src="asset/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="asset/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="asset/vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="asset/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+    <script src="asset/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="asset/vendor/tinny-slider/tiny-slider.js"></script>
+
+    <!-- Main JS File -->
+    <script src="asset/js/main.js"></script>
     
 </body>
 </html>

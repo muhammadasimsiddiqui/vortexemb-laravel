@@ -99,11 +99,11 @@
                       class="navbar-nav justify-content-center align-items-start align-items-lg-center fs-5 flex-grow-1 px-3"
                     >
                       <li class="nav-item mx-2">
-                        <a class="nav-link active" href="{{ url('/') }}">Home</a>
+                        <a class="nav-link {{ Request::is('/') ? 'active' : '' }}" href="{{ url('/') }}">Home</a>
                       </li>
 
                       <li class="nav-item mx-2">
-                        <a class="nav-link" href="{{ url('/about') }}">About Us</a>
+                        <a class="nav-link {{ Request::is('about') ? 'active' : '' }}" href="{{ url('/about') }}">About Us</a>
                       </li>
 
                       <li class="nav-item mx-2 dropdown">
@@ -119,14 +119,14 @@
                         <ul class="dropdown-menu">
                           <li>
                             <a
-                              class="dropdown-item"
+                              class="dropdown-item {{ Request::is('embroidery-digitizing') ? 'active' : '' }}"
                               href="{{ url('/embroidery-digitizing') }}"
                               >Embriodery Digtizing</a
                             >
                           </li>
                           <li>
                             <a
-                              class="dropdown-item"
+                              class="dropdown-item {{ Request::is('Vector Conversation') ? 'active' : '' }}"
                               href="{{ url('/vector-conversion') }}"
                               >Vector Conversation</a
                             >
@@ -135,11 +135,11 @@
                       </li>
 
                       <li class="nav-item mx-2">
-                        <a class="nav-link" href="{{ url('/portfolio') }}">Portfolio</a>
+                        <a class="nav-link {{ Request::is('portfolio') ? 'active' : '' }}" href="{{ url('/portfolio') }}">Portfolio</a>
                       </li>
 
                       <li class="nav-item mx-2">
-                        <a class="nav-link" href="{{ url('/contact') }}">Contact Us</a>
+                        <a class="nav-link {{ Request::is('contact') ? 'active' : '' }}" href="{{ url('/contact') }}">Contact Us</a>
                       </li>
                     </ul>
                   </div>
