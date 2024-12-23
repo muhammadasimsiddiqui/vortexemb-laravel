@@ -519,24 +519,39 @@ Right Side Content Css End
     margin-bottom: 0.7rem;
     text-align: center;
 }
-
+.heroSection .heroForm .contactSection label {
+  color: var(--theme-color-five);
+}
+.heroSection .heroForm .contactSection label {
+  color: var(--theme-color-five);
+}
 .heroSection .heroForm .contactSection .input {
-    border: 2px solid var(--theme-color-one);
-    padding: 0.5rem 1rem;
-    color: var(--theme-color-six);
+    border-width: 1.4px;
+    border-style: solid;
+    border-color:var(--theme-color-five);
+    padding: 0.5rem 1.2rem;
+    color: var(--theme-color-five);
     font-size: 0.8rem;
-    border-radius: 8px;
+    border-radius: 4px;
+}
+.heroSection .heroForm .contactSection .input:hover,
+.heroSection .heroForm .contactSection textarea.input:hover,
+.heroSection .heroForm .contactSection .input:active,
+.heroSection .heroForm .contactSection textarea.input:active,
+.heroSection .heroForm .contactSection .input:focus,
+.heroSection .heroForm .contactSection textarea.input:focus {
+    border-color: var(--theme-color-one) !important;
 }
 
 .heroSection .heroForm .contactSection textarea.input {
     padding: 0.8rem 1.2rem;
     min-height: 100px;
-    border-radius: 8px;
+    border-radius: 4px;
 }
 
 .heroSection .heroForm .input-container span:before,
 .heroSection .heroForm .input-container span:after {
-    background-color: #000000;
+    background-color: var(--theme-color-ten);
 }
 
 .heroSection .heroForm .contactSection input:-webkit-autofill,
@@ -544,13 +559,14 @@ Right Side Content Css End
 .heroSection .heroForm .contactSection select:-webkit-autofill {
     background-color: transparent !important;
     box-shadow: 0 0 0px 1000px transparent inset !important;
-    -webkit-text-fill-color: var(--theme-color-seventh) !important;
-    border: 2px solid var(--theme-color-one);
+    -webkit-text-fill-color: var(--theme-color-five) !important;
+    border: 1.5px solid var(--theme-color-five);
     transition: background-color 5000s ease-in-out 0s;
 }
 
+.heroSection .heroForm .contactSection .upload-button,
 .heroSection .heroForm .contactSection .upload-button i {
-    color: var(--theme-color-one);
+    color: var(--theme-color-five);
 }
 
 @media (max-width: 480px) {
