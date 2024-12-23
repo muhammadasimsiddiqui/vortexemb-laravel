@@ -33,7 +33,7 @@
             </picture>
           </div>
           <div class="col-md-5 align-content-center order-2 order-md-1">
-            <h2 class="headingLeft text-gradient">
+            <h2 class="headingLeft text-dark">
               Vector Conversation Services
             </h2>
             <p>
@@ -68,7 +68,7 @@
             </picture>
           </div>
           <div class="col-md-6 align-content-center">
-            <h2 class="headingLeft text-gradient">Raster To Vector</h2>
+            <h2 class="headingLeft text-dark">Raster To Vector</h2>
             <p>
               Are you a screen printer? Looking for high-resolution scalable
               vector graphics for tumblers, shirts and printing accessories for
@@ -102,7 +102,7 @@
             </picture>
           </div>
           <div class="col-md-6 align-content-center order-2 order-md-1">
-            <h2 class="headingLeft text-gradient">Silhouette Art</h2>
+            <h2 class="headingLeft text-dark">Silhouette Art</h2>
             <p>
               Want some bold and black art? Get personalized your mugs and
               printable accessories with a black-filled touch of your favourite
@@ -122,18 +122,18 @@
           <div class="col-md-6 justify-content-center d-flex">
             <picture>
               <source
-                srcset="asset/images/stencil-art.svg"
+                srcset="asset/images/Stencil-Art.webp"
                 type="image/svg+xml"
               />
               <img
-                src="asset/images/stencil-art.svg"
+                src="asset/images/Stencil-Art.webp"
                 class="img-fluid"
                 alt="Stencil Art"
               />
             </picture>
           </div>
           <div class="col-md-6 align-content-center">
-            <h2 class="headingLeft text-gradient">Stencil Art</h2>
+            <h2 class="headingLeft text-dark">Stencil Art</h2>
             <p>
               Searching for customized cut files? Get the stencil file that
               helps you to convert your images into cut files for a high-quality
@@ -165,7 +165,7 @@
             </picture>
           </div>
           <div class="col-md-6 align-content-center order-2 order-md-1">
-            <h2 class="headingLeft text-gradient">Color Separation</h2>
+            <h2 class="headingLeft text-dark">Color Separation</h2>
             <p>
               Do you think color separation is complicated? DigitEMB provides
               vector conversion services with color separation that helps you to

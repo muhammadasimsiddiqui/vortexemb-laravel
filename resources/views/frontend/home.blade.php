@@ -12,44 +12,12 @@
               <h2 class="HerogradientHeading text-start">
                 Embroidery Digitizing & Vector Conversion
               </h2>
-              <p class="heroDesc text-white">
+              <p class="heroDesc">
                 At VortexEmb, our in-house team of skilled digitizers ensures
                 precision and creativity to meet your unique requirements. With
-                over <strong>9 years of industry experience</strong>, we are
+                over <strong>16 years of industry experience</strong>, we are
                 proud to deliver reliable, high-quality services to our global
                 clients.
-              </p>
-              <ul class="mark-line">
-                <li>
-                  <img src="asset/images/icons/check.png" alt="" />
-                  <span>Unmatched quality at competitive pricing.</span>
-                </li>
-                <li>
-                  <img src="asset/images/icons/check.png" alt="" />
-                  <span
-                    >Embroidery Digitizing starting at just $3/1000
-                    stitches.</span
-                  >
-                </li>
-                <li>
-                  <img src="asset/images/icons/check.png" alt="" />
-                  <span
-                    >Vector Conversion services starting at $25 per
-                    artwork.</span
-                  >
-                </li>
-              </ul>
-
-              <p class="text-white">
-                Looking for exceptional quality
-                <strong>Embroidery Digitizing</strong> and
-                <strong>Vector Conversion</strong> services at unbeatable
-                prices?
-                <br />
-              </p>
-              <p class="text-white">
-                Elevate your brand with professional designs crafted for
-                perfection. Start your journey with us today!
               </p>
             </div>
           </div>

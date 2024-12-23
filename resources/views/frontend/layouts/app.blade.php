@@ -44,7 +44,7 @@
     <link rel="stylesheet" href="asset/vendor/tinny-slider/tiny-slider.css" />
   </head>
 
-<body class="{{ Route::currentRouteName() == 'home' ? 'index-page' : 'other-page' }}">
+<body class="{{ Route::currentRouteName() == 'home' ? 'index-page' : 'other-page' }} bg-light">
 
     <!-- Header -->
     @include('frontend.partials.header')

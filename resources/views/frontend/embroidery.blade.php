@@ -32,7 +32,7 @@
             </picture>
           </div>
           <div class="col-md-5 align-content-center order-2 order-md-1">
-            <h2 class="text-gradient headingLeft">
+            <h2 class="text-dark headingLeft">
               Embroidery Digitizing Services
             </h2>
             <p>
@@ -65,7 +65,7 @@
             </picture>
           </div>
           <div class="col-md-6 align-content-center">
-            <h2 class="headingLeft">Hat Embroidery Digitizing</h2>
+            <h2 class="headingLeft text-dark">Hat Embroidery <br/>Digitizing</h2>
             <p>
               We offers professional embroidery digitizing for all hat types,
               including low-profile, mid-profile, high-profile caps, visors, and
@@ -105,7 +105,7 @@
             </picture>
           </div>
           <div class="col-md-6 align-content-center order-2 order-md-1">
-            <h2 class="text-gradient headingLeft">
+            <h2 class="text-dark headingLeft">
               Logo Embroidery Digitizing
             </h2>
             <p>
@@ -144,7 +144,7 @@
             </picture>
           </div>
           <div class="col-md-6 align-content-center">
-            <h2 class="text-gradient headingLeft">
+            <h2 class="text-dark headingLeft">
               Jacket Back Embroidery Digitizing
             </h2>
             <p>
@@ -185,7 +185,7 @@
             </picture>
           </div>
           <div class="col-md-6 align-content-center order-2 order-md-1">
-            <h2 class="text-gradient headingLeft">
+            <h2 class="text-dark headingLeft">
               3D Puff Embriodery Digitizing
             </h2>
             <p>
